@@ -13,12 +13,32 @@
 
 body{
     background-color: #bfc9ff;
+    padding: 20px;
 }
 
 header{
     background-color: #6a78c8;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article{
+    background-color: #94a1e3;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+    border-radius: 50px;
+}
+
+article img{
+    width: 100%;
+    align-items: center;
 }
 
 footer{
-    background-color: #6a78c8 
+    background-color: #6a78c8;
+    text-align: center;
+    padding: 20px;
 }
+
