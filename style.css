@@ -10,35 +10,131 @@
 .color3 { #94a1e3 };
 .color4 { #aab5f1 };
 .color5 { #bfc9ff }; */
+*{
+    margin: 0;
+}
+
+main{
+    padding: 10px;
+    border: 0;
+}
 
 body{
     background-color: #bfc9ff;
+    color: #000000;
+    /* padding: 20px; */
+    font-family: Calibre;
+    font-size: 20px;
+}
+
+.cabecalho{
+    background-color: #6a78c8;
     padding: 20px;
 }
 
-header{
-    background-color: #6a78c8;
-    padding: 20px;
+.navigation{
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation img{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    padding: 1px;
+    list-style: none;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.menu li{
+    margin-left: 9px;
+}
+
+.menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.texto{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+}
+
+.produtos{
+    background-color: #94a1e3;
+    padding: 10px;
+    /* margin-bottom: 40px; */
+    width: 320px;
+    border-radius: 50px;
     margin-left: auto;
     margin-right: auto;
 }
-
-article{
-    background-color: #94a1e3;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 320px;
-    border-radius: 50px;
-}
-
-article img{
-    width: 100%;
-    align-items: center;
-}
-
-footer{
-    background-color: #6a78c8;
+.produtos h1{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 22px;
     text-align: center;
-    padding: 20px;
+}
+
+.produtos h3{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.produtos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.produtos p{
+    margin-bottom: 10px;
+    margin-right: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #bfc9ff;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.rodape{
+    background-color: #6a78c8;
+    color: #000000;
+    text-align: center;
+    padding: 50px;
 }
 
