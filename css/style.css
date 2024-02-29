@@ -1,0 +1,143 @@
+/* 
+.color1 { #4060d2 };
+.color2 { #5c77dd };
+.color3 { #788fe9 };
+.color4 { #94a6f4 };
+.color5 { #b0bdff }; */
+/*
+.color1 { #6a78c8 };
+.color2 { #7f8cd5 };
+.color3 { #94a1e3 };
+.color4 { #aab5f1 };
+.color5 { #bfc9ff }; */
+*{
+    margin: 0;
+}
+
+main{
+    border: 0;
+}
+
+body{
+    background-color: #bfc9ff;
+    color: #000000;
+    font-family: Calibre;
+    font-size: 20px;
+}
+
+.cabecalho{
+    background-image: url(capa1.jpg);
+    background-size: 80%;
+    /* background-color: #6a78c8; */
+    padding: 10px 5px 20px 5px;
+}
+
+.navigation{
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation img{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+.menu{
+    display: flex;
+    padding: 1px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.menu li{
+    margin-left: 9px;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.texto{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.produtos{
+    background-color: #94a1e3;
+    width: 300px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtos h1{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.produtos h3{
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.produtos img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.produtos p{
+    margin-bottom: 10px;
+    margin-right: 50%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #bfc9ff;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.rodape{
+    background-color: #6a78c8;
+    color: #000000;
+    text-align: center;
+    padding: 50px;
+    margin-top: 33px;
+}
+
